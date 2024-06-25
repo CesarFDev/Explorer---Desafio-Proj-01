@@ -66,12 +66,13 @@ p span {
   height: 0px;
   border: 1px solid #eceff2;
   margin: 0px auto 16px;
-  box-shadow: 317 614 blur;
-  
 }
-a {
+.links {
   font-weight: bold;
   color: #3f3d56;
+  text-shadow: 2px 2px 4px #3F3D56;
+  text-decoration: none;
+
 }
 
 .wave {
