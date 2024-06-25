@@ -5,7 +5,6 @@
 }
 
 body {
-  
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: normal;
@@ -28,12 +27,12 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   margin: auto;
-  color: #3F3D56;
+  color: #3f3d56;
   margin-bottom: 22px;
 }
 
 h1 span {
-  color: #EE24FF;
+  color: #ee24ff;
   font-weight: bold;
 }
 
@@ -44,11 +43,41 @@ p {
 
 p span {
   font-weight: bold;
-  color: #3F3D56;
+  color: #3f3d56;
 }
 
 .textline2 {
   width: 626px;
   margin: 32px auto 0px;
+}
 
+#footer {
+  width: 1024px;
+  height: 176px;
+  margin: 0px auto 0px;
+}
+
+#footer a + a {
+  margin-left: 42px;
+}
+
+.line {
+  width: 391px;
+  height: 0px;
+  border: 1px solid #eceff2;
+  margin: 0px auto 16px;
+  box-shadow: 317 614 blur;
+  
+}
+a {
+  font-weight: bold;
+  color: #3f3d56;
+}
+
+.wave {
+  margin: 41px auto 0px;
+  width: 1024px;
+  height: 104px;
+  background-color: #3f3d56;
+  
 }
